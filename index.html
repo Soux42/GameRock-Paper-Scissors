@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <!--google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css">
+   
 
     <!--Title-->
     <title>RPSLSgame</title>
@@ -23,20 +24,28 @@
     <header>
     <h2>Rock Paper Scissors Lizard Spock
     </h2>
+    <img src="assets/images/RPSLS image.jpg" alt="RPSLS" width="300px">
     </header>
-
+    
 <section class="game-area">
 <div>
     <p>Make a choice: </p>
-    <button aria-label="Rock" data-Choice="0" class="control">Rock</button>
-    <button aria-label="Paper" data-Choice="0" class="control">Paper</button>
-    <button aria-label="Scissors" data-Choice="0" class="control">Scissors</button>
-    <button aria-label="Lizard" data-Choice="0" class="control">Lizard</button>
-    <button aria-label="Spock" data-Choice="0" class="control">Spock</button>
+    <button aria-label="Rock" data-Choice="0" class="control">Rock </button>
+    <button aria-label="Paper" data-Choice="1" class="control">Paper </button>
+    <button aria-label="Scissors" data-Choice="2" class="control">Scissors </button>
+    <button aria-label="Lizard" data-Choice="3" class="control">Lizard </button>
+    <button aria-label="Spock" data-Choice="4" class="control">Spock </button>
+</div>
+<div class="player">
+    <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+</div>
+<div class="computer">
+    <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
 </div>
 </section>
+
 <footer>
-    <h3>Rules</h3>
+    <h4>Rules</h4>
     
 </footer>
 
